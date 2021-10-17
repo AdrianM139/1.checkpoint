@@ -1,0 +1,151 @@
+body{
+    background-image: url("Pictures/les 2.jpg");
+}
+
+.nadpis{
+    color: white;
+    font-family: "Segoe UI", serif;
+    text-align: center;
+    text-shadow: 9px 4px 5px #555;
+    font-size: 60px;
+    background-image: url("Pictures/zelen.png");
+    padding-bottom: 8px;
+    margin: 20px auto 10px auto;
+    cursor: default;
+    display: block;
+}
+
+.main{
+    background: rgba(255,255,255,0.85);
+    padding: 10px 20px 50px;
+    margin: 10px 155px;
+}
+
+.w3-animate-fading{animation:fading 8s infinite}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0} }
+
+.homepage-slides{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.slideShow{
+    background-image: url("Pictures/SRP5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bgstyle{
+    border: 0.5cm ridge rgba(200, 255, 0, 0.8);
+    background: rgba(200,255,0,0.8) !important;
+    text-align: center;
+}
+
+/*.navbarcenter{*/
+/*    margin: auto;*/
+/*}*/
+
+.navbarcolors {
+    background: rgba(240,240,240,0.8);
+    color: darkslategray;
+    border-color: rgba(240, 240, 240, 0.8);
+}
+
+.btnstyle {
+    background: rgba(240,240,240,0.8);
+    color: darkslategray;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 0.1cm ridge rgba(240, 240, 240, 0.8);
+    padding: 5px 30px;
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.btn-success{
+    background-color: yellowgreen;
+}
+
+.btn-outline-primary {
+    color: forestgreen;
+    border-color: forestgreen;
+    position: absolute;
+    bottom: 15px;
+}
+
+.btn-outline-primary:hover{
+    background-color: yellowgreen;
+    border-color: forestgreen;
+}
+
+.btn-outline-danger {
+    position: absolute;
+    bottom: 15px;
+    left: 65px;
+}
+
+.dropdown-menu-color {
+    background-color: rgba(255,255,255,0.9);
+}
+
+.button-zeleny {
+    background-color: limegreen;
+    border-color: limegreen;
+}
+
+.button-zeleny:hover {
+    background-color: green;
+    border-color: green;
+}
+
+.navbarmenu {
+    color: rgb(0,0,0);
+    background-color: rgba(240,240,240,0.85);
+    border-radius: 8px;
+    border: 0.1cm ridge rgba(240, 240, 240, 0.8);
+}
+
+.loginMargin {
+    margin-left: auto;
+}
+
+.form-margin {
+    margin: 60px 0 60px;
+}
+
+@media screen and ( max-width: 1120px ) {
+    .main{
+        margin: 10px 80px;
+    }
+}
+
+@media screen and ( max-width: 920px ) {
+    .main{
+        margin: 10px;
+    }
+}
+
+@media screen and ( min-width: 768px ) {
+    .col-md-4 {
+        max-width: 30%;
+        background-color: rgba(255, 255, 255, 0.6);
+        margin: 10px;
+        padding: 5px 15px 15px 15px;
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+    .col-md-4 {
+        background-color: rgba(255, 255, 255, 0.6);
+        margin: 10px;
+        padding: 5px 15px 15px 15px;
+    }
+}
